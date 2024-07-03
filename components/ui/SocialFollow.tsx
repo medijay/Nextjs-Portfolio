@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa"
 
 const SocialFollow = () => {
     return (
-        <div >
+        <div  className="social-container">
          <a href="https://www.github.com/medijay">
         <FaGithub  />
          </a>
