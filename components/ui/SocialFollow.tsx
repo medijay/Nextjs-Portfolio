@@ -1,17 +1,23 @@
 "use client"
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa"
+
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faTwitter, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
+
 
 const SocialFollow = () => {
     return (
         <div  className="social-container">
-         <a href="https://www.github.com/medijay">
-        <FaGithub  />
+         <a href="https://www.github.com/medijay"
+         className="github-social">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
          </a>
-         <a href="https://www.twitter.com">
-        <FaTwitter  />
+         <a href="https://www.twitter.com" 
+         className="twitter-social">
+        <FontAwesomeIcon icon={faTwitter} size="2x" />
          </a>
-         <a href="https://www.twitter.com">
-        <FaLinkedin />
+         <a href="https://www.twitter.com"
+         className="linkedin-social">
+        <FontAwesomeIcon icon={faLinkedin} size="2x"/>
          </a>
         </div>
     )
