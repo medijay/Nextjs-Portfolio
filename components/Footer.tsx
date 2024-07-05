@@ -2,7 +2,8 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import SocialFollow from "./ui/SocialFollow"
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -37,18 +38,29 @@ const Footer = () => {
           Copyright © 2024 Ahmed Adekunle
         </p>
 
+          </div> 
+
+          <div className="place-items-end relative h-32 w-32 gap-6">
+        < div className =" justify-evenly flex items-stretch space-x-4 flex-row absolute bottom-0 right-0 h-16 w-16">
+         <a href="https://www.github.com/medijay">
+        <FaGithub />
+         </a>
+         <a href="https://x.com/Medihuncho">
+        <FaTwitter />
+         </a>
+         <a href="https://www.linkedin.com/in/ahmed-gbenjo-81404a210/">
+        <FaLinkedin/>
+         </a>
+             </div>
+         </div>
           
-        <div className="flex items-center md:gap-3 gap-15">
-          <SocialFollow />
-            <div>
 
-
-            <div>
       
-          </div>    
-            </div>
-        </div>
-      </div>
+      
+            
+      
+
+    
     </footer>
   );
 };
