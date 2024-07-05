@@ -15,7 +15,7 @@ const SocialFollow = () => {
          className="twitter-social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
          </a>
-         <a href="https://www.twitter.com"
+         <a href="https://www.linkedin.com/in/ahmed-gbenjo-81404a210/"
          className="linkedin-social">
         <FontAwesomeIcon icon={faLinkedin} size="2x"/>
          </a>
