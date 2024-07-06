@@ -6,6 +6,7 @@ import {FaLocationArrow} from 'react-icons/fa'
 
 
 
+
 const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
@@ -30,7 +31,7 @@ const Hero = () => {
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col
          items-center justify-center'>
           <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            Dynamic Web Portfolio with Next.js
+            Explore an amazing user experience
           </h2>
 
           <TextGenerateEffect 
@@ -42,7 +43,7 @@ const Hero = () => {
               Hi, I&apos;m Ahmed, a Next.js developer based in Nigeria
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
             title= 'Show my projects'
             icon={<FaLocationArrow />}
