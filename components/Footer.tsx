@@ -40,7 +40,7 @@ const Footer = () => {
 
           </div> 
 
-          <div className="place-items-end relative h-32 w-32 gap-6">
+          <div className="place-items-end relative h-32 w-32 ">
         < div className =" justify-evenly flex items-stretch space-x-4 flex-row absolute bottom-0 right-0 h-16 w-16">
          <a href="https://www.github.com/medijay">
         <FaGithub />
