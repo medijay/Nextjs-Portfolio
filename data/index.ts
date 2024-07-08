@@ -2,7 +2,7 @@
 
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
+    { name: "Projects", link: "/components/RecentProjects.tsx" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
