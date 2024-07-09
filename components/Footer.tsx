@@ -39,8 +39,8 @@ const Footer = () => {
         </p>
 
           </div> 
-
-          <div className="place-items-end relative h-32 w-32 ">
+          
+          <div className="absolute bottom-1 right-12 place-items-end h-32 w-32 ">
         < div className =" justify-evenly flex items-stretch space-x-4 flex-row absolute bottom-0 right-0 h-16 w-16">
          <a href="https://www.github.com/medijay">
         <FaGithub />
@@ -53,12 +53,6 @@ const Footer = () => {
          </a>
              </div>
          </div>
-          
-
-      
-      
-            
-      
 
     
     </footer>
