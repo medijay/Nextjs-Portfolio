@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import Clients from "@/components/Clients";
 import RecentProjects from "@/components/RecentProjects";
-import { FaLocationArrow } from "react-icons/fa";
 import Approach from "@/components/Approach";
 
 
