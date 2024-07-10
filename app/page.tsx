@@ -6,9 +6,12 @@ import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import Clients from "@/components/Clients";
 import RecentProjects from "@/components/RecentProjects";
-
-import { navItems } from "@/data";
+import { FaLocationArrow } from "react-icons/fa";
 import Approach from "@/components/Approach";
+
+
+
+
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
   mx-auto sm:px-10 px-5">
     <div className="max-w-7xl w-full">
       <FloatingNav navItems={[
-        {name: 'Home', link: '/', icon: <FaHome />}
+        {name: 'Home', link: '/', icon: <FaHome />},       
       ]} />
       <Hero />
       <Grid />
@@ -25,6 +28,7 @@ export default function Home() {
       <Approach />
       <Experience />
       <Footer />
+      
     </div>
   </main>
   );
