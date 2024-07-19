@@ -8,9 +8,11 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 
 export const FloatingNav = ({
+
   navItems,
   className,
 }: {
@@ -43,6 +45,7 @@ export const FloatingNav = ({
     }
   });
 
+  const router = useRouter();
 
 
 
@@ -83,6 +86,10 @@ export const FloatingNav = ({
           <span>Login</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </div>
+
+        <button type="button" onClick={() => router.push('/components/RecentProjects.tsx')}>
+          Projects
+        </button>
 
         
       </motion.div>
