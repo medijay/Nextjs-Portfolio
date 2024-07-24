@@ -51,7 +51,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on my Nextjs Blogpost",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -110,31 +110,31 @@ export const navItems = [
     {
       quote:
         "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Head of  HR, Sycamore",
+      name: "Idowu Abdulsalam",
+      title: "Chief Designer, Zvix",
     },
     {
       quote:
         "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Head of  HR, Sycamore",
+      name: "Kazeem Adeoye",
+      title: "Technical Director, Zvix",
     },
     {
       quote:
         "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Head of  HR, Sycamore",
+      name: "Brian John",
+      title: "CTO, Medevs",
     },
     {
       quote:
         "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Head of  HR, Sycamore",
+      name: "Emmanuel O.",
+      title: "Senior Software Developer",
     },
     {
       quote:
         "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
-      name: "Timi Tayiti",
+      name: "Alex Timothy",
       title: "Head of HR, Sycamore",
     },
   ];
