@@ -87,7 +87,7 @@ export const FloatingNav = ({
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </div>
 
-        <button type="button" onClick={() => router.push('/components/RecentProjects.tsx')}>
+        <button type="button" onClick={() => router.push('/')}>
           Projects
         </button>
 
